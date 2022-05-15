@@ -125,12 +125,10 @@ div.bottomcontainer{
   top: 20px;
 }
 
-#copy {
+.copy {
   text-align: right;
   color: #9E7777;
-  position: absolute;
-  top: 2188px;
-  right:8px;
+  object-position: bottom right;
 }
 
 a {
