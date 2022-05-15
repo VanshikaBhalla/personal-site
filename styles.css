@@ -1,0 +1,157 @@
+body {
+  margin: 2px;
+  text-align: center;
+}
+.pro {font-family: "Source Sans Pro", sans-serif; font-size: 150%;}
+.namaste{font-family: "Amita"; font-size: large; font-size: 120%;}
+.name{font-family: "Felipa", cursive; font-size: 300%; padding-top: 10px;}
+
+h1{
+  margin-top: 0px;
+  color: #000000;
+  line-height: 1.65;
+}
+h3{
+  color: #000000;
+  font-weight: bolder;
+  line-height: 2;
+}
+h2{
+  color: #000000;
+  font-weight: bold;
+  line-height: 2;
+}
+.textarea {
+  background-color: #7D5A50;
+  border: solid white;
+  color: white;
+  font-size: 20px;
+  font-family: "Ubuntu Mono", sans-serif;
+  font-weight: normal;
+}
+.btn {
+  border-radius: 40px;
+  font-family: : "Source Sans Pro", sans-serif;
+  color: #FFFBE9;
+  font-size: 15px;
+  background: #7D5A50;
+  padding: 10px 20px 10px 20px;
+  border: solid #FFFBE9 2px;
+  text-decoration: none;
+}
+.btn:hover {
+  color: #EED6C4;
+  border-color: #EED6C4;
+}
+label {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+}
+.about {
+  font-family: "Ubuntu Mono", sans-serif;
+  text-align: justify;
+  color: #000000;
+  padding: 1px 10px 1px 10px;
+}
+div.topcontainer{
+  background-color: #AD8B73;
+  padding-top: 100px;
+  display: inline-block;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.top-cloud{
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+.bottom-cloud {
+  position: absolute;
+  top: 350px;
+}
+#Vanshika {
+   border: 5px solid;
+   border-radius: 100%;
+   border-color: #FFFBE9;
+   height: 200px;
+   width: 200px;
+}
+#Vanshika:hover {
+  border-color: #AD8B73;
+}
+.images {
+  height: 100px;
+  width: 100px;
+}
+hr {
+  border-color: #FFFBE9;
+  border-style: dotted none none none;
+  height: 25px;
+  width: 10%;
+  border-width: thick;
+}
+#gmail {
+  height: 80px;
+  width: 80px;
+}
+
+div.middlecontainer{
+  background-color: #CEAB93;
+  padding-bottom: 18px;
+}
+
+div.bottomcontainer{
+  background-color: #E3CAA5;
+  padding: 10px;
+}
+.mail {
+  margin: 20px;
+  text-align: justify;
+  font-family: "Source Sans Pro", sans-serif;
+}
+#bitmoji4 {
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  left: 5px;
+  top: 2050px;
+}
+#bitmoji3 {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  right: 50px;
+  top: 1200px;
+}
+#bitmoji2 {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  left: 50px;
+  top: 20px;
+}
+#bitmoji {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  right: 80px;
+  top: 400px;
+}
+
+#copy {
+  text-align: right;
+  color: #9E7777;
+  position: absolute;
+  top: 2188px;
+  right:8px;
+}
+
+a {
+  color: #7D5A50;
+  text-decoration: none;
+  padding: 5px;
+}
+a:hover {
+  color: #1C0A00;
+}
