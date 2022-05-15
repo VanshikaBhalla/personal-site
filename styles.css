@@ -129,6 +129,7 @@ div.bottomcontainer{
   text-align: right;
   color: #9E7777;
   object-position: bottom right;
+  padding: 0 5px 0 5px;
 }
 
 a {
