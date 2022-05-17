@@ -2,8 +2,8 @@ body {
   margin: 2px;
   text-align: center;
 }
-.pro {font-family: "Source Sans Pro", sans-serif; font-size: 150%;}
-.namaste{font-family: "Amita"; font-size: large; font-size: 120%;}
+.pro {font-family: "Source Sans Pro", sans-serif; font-size: 150%; color: #3A3845}
+.namaste{font-family: "Amita"; font-size: large; font-size: 120%; color: #3A3845;}
 .name{font-family: "Felipa", cursive; font-size: 300%; padding-top: 10px;}
 
 h1{
@@ -117,7 +117,7 @@ div.bottomcontainer{
 }
 
 .skills {
-  padding: 10px;
+  padding: 30px 10px;
 }
 
 .contact-me {
