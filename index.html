@@ -4,6 +4,15 @@
   <head>
     <meta charset="utf-8">
     
+      <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+    <!-- Bootstrip JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.6.1/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    
     <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-4S9VVJJBF3"></script>
 <script>
@@ -49,25 +58,49 @@
 
       </div>
 
-      <hr>
       <div class="skills">
         <h2>My Skills</h2>
-        <div class="skill-row">
-          <img src="icon_web.png" class="images" alt="webdev">
-          <h3 class="skill-heading"> Web Development & Designing </h3>
-          <p class="about"> I started learning the basics of HTML when I was 13 years old when my friend introduced me to web
-          developing. But I always wondered about colorful websites (like this one). Over time, I've gained a wealth of
-          knowledge of designing and developing websites, and am still working on it.</p> <br>
+
+        <div id="skills" class="carousel slide" data-ride="carousel" data-interval='3000'>
+
+          <div class="carousel-inner">
+
+            <div class="carousel-item active" id='skill1'>
+            <div class="skill-row">
+              <img src="https://cdn-icons-png.flaticon.com/128/1336/1336494.png" class="images" alt="computer">
+              <h3 class="skill-heading"> Web Development & Designing </h3>
+              <p class="about"> I started learning the basics of HTML when I was 13 years old. But I always wondered about colorful websites (like this one). Over time, I've gained a wealth of
+              knowledge of designing and developing websites, and am still working on it.</p> <br>
+            </div>
+          </div>
+
+            <div class="carousel-item" id='skill2'>
+              <div class="skill-row">
+                <img class="images" src="https://cdn-icons-png.flaticon.com/128/1822/1822920.png" alt="py">
+                <h3 class="skill-heading"> Python Programming </h3>
+                <p class="about"> I was introduced to Python just a few years ago as a part of my junior college syllabus. I struggeld a bit in the beginning but got through
+                anyway. Eventually, I fell in love with it. Then, I joined a Python Development bootcamp (by <a href="https://www.linkedin.com/in/angela-yu-963a584b/" alt= "ang">Angela Yu</a>)
+                on Udemy which helped me upskill my Python skills. According to me, programming is a perfect blend of art and science. I look forward to making use of it, professionally. </p> <br>
+              </div>
+            </div>
+          </div>
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+              <li data-target="#skills" data-slide-to="0" class="active"></li>
+              <li data-target="#skills" data-slide-to="1"></li>
+              <li data-target="#skills" data-slide-to="2"></li>
+            </ul>
+
+          <!-- Left and right controls -->
+          <a class="carousel-control-prev" href="#skills" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#skills" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
         </div>
-        <div class="skill-row">
-          <img class="images" src="icon_py.png" alt="py">
-          <h3 class="skill-heading"> Python Programming </h3>
-          <p class="about"> I was introduced to Python just a few years ago as a part of my junior college syllabus. I struggeld a bit in the beginning but got through
-          anyway. Eventually, I fell in love with it. Then, I joined a Python Development bootcamp (by <a href="https://www.linkedin.com/in/angela-yu-963a584b/" alt= "ang">Angela Yu</a>)
-          on Udemy which helped me upskill my Python skills. According to me, programming is a perfect blend of art and science. I look forward to making use of it, professionally. </p> <br>
         </div>
-      </div>
-      <hr>
       <div class="contact-me">
         <img src="icon_burger.png" id="gmail" alt="mail">
         <h2 id='contact-me'> Get In Touch </h2>
