@@ -84,13 +84,7 @@ div.topcontainer{
   height: 100px;
   width: 100px;
 }
-hr {
-  border-color: #FFFBE9;
-  border-style: dotted none none none;
-  height: 25px;
-  width: 10%;
-  border-width: thick;
-}
+
 #gmail {
   height: 80px;
   width: 80px;
@@ -98,12 +92,12 @@ hr {
 
 div.middlecontainer{
   background-color: #CEAB93;
-  padding-bottom: 18px;
+  padding: 18px 0;
 }
 
 div.bottomcontainer{
   background-color: #E3CAA5;
-  padding: 10px;
+  padding: 18px;
 }
 .mail {
   margin: 20px;
@@ -124,7 +118,22 @@ div.bottomcontainer{
   left: 50px;
   top: 20px;
 }
+.carousel-indicators {
+  padding: 20px;
+  margin: 10px 200px;
+  bottom: -30px;
+}
+.carousel-inner {
+  padding: 20px;
+}
 
+.skills {
+  padding: 10px;
+}
+
+.contact-me {
+  padding-top: 18px;
+}
 .copy {
   text-align: right;
   color: #9E7777;
