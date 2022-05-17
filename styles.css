@@ -19,7 +19,7 @@ h3{
 }
 h2{
   color: #000000;
-  font-weight: bold;
+  font-weight: normal;
   line-height: 2;
 }
 .textarea {
@@ -144,7 +144,7 @@ div.bottomcontainer{
 }
 
 a {
-  color: #7D5A50;
+  color: #191919;
   text-decoration: none;
   padding: 5px;
 }
