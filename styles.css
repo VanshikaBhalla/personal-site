@@ -115,7 +115,9 @@ div.bottomcontainer{
 .carousel-inner {
   padding: 20px;
 }
-
+.carousel-item {
+  padding: 7% 15%;
+}
 .skills {
   padding: 30px 10px;
 }
