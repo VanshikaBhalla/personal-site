@@ -86,7 +86,7 @@ div.middlecontainer{
 
 div.bottomcontainer{
   background-color: #E3CAA5;
-  padding: 18px;
+  padding: 10px 5px 1px 5px;
 }
 .mail {
   margin: 20px;
@@ -123,11 +123,30 @@ div.bottomcontainer{
 .contact-me {
   padding-top: 18px;
 }
+
+#nav-bottom {
+  padding: 0 0 10px 0;
+}
+
+.nav-item {
+  padding: 0 10px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
 .copy {
   text-align: right;
+  font-size: 0.75em;
+  font-weight: normal;
   color: #9E7777;
   object-position: bottom right;
-  padding: 5px;
+  padding: 0 5px 0 8px;
+}
+
+efset {
+  position: absolute;
+  top: 1960px;
+  left: 35px;
 }
 
 a {
