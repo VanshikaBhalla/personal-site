@@ -36,11 +36,18 @@ label {
   font-weight: bold;
 }
 .about {
-  font-family: "Ubuntu Mono", sans-serif;
+  font-weight: normal;
   text-align: justify;
-  font-weight: bold;
+  font-family: "Source Sans Pro",
   color: #000000;
   padding: 1px 10px 1px 10px;
+}
+.about-me {
+  font-weight: normal;
+  text-align: justify;
+  font-family: "Source Sans Pro",
+  color: #000000;
+  padding: 10px 30px 10px 30px;
 }
 div.topcontainer{
   background-color: #AD8B73;
@@ -115,9 +122,7 @@ div.bottomcontainer{
 .carousel-inner {
   padding: 20px;
 }
-.carousel-item {
-  padding: 7% 15%;
-}
+
 .skills {
   padding: 30px 10px;
 }
