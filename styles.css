@@ -164,3 +164,9 @@ a {
 a:hover {
   color: #1C0A00;
 }
+@media screen and (max-width: 1028px) {
+  #bitmoji{
+  left: 30px;
+  top: 10px;
+  }  
+}
