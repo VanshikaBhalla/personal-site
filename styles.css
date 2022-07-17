@@ -62,10 +62,7 @@ div.topcontainer{
   top: 50px;
   right: 225px;
 }
-.bottom-cloud {
-  position: absolute;
-  top: 350px;
-}
+
 #Vanshika {
    border: 5px solid;
    border-radius: 100%;
@@ -148,12 +145,6 @@ div.bottomcontainer{
   color: #9E7777;
   object-position: bottom right;
   padding: 0 5px 0 8px;
-}
-
-efset {
-  position: absolute;
-  top: 1960px;
-  left: 35px;
 }
 
 a {
